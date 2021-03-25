@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/google/uuid v1.2.0
 	github.com/graph-gophers/graphql-go v0.0.0-20210319060855-d2656e8bde15
+	github.com/klauspost/compress v1.11.12 // indirect
 	golang.org/x/net v0.0.0-20210324205630-d1beb07c2056
 	nhooyr.io/websocket v1.8.6
 )
