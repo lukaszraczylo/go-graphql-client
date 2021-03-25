@@ -49,7 +49,7 @@ func NewID(v ID) *ID { return &v }
 // NewInt is a helper to make a new *Int.
 func NewInt(v Int) *Int { return &v }
 
-func NewBigint(v BigInt) *BigInt { return &v }
+func NewBigint(v Bigint) *Bigint { return &v }
 
 // NewString is a helper to make a new *String.
 func NewString(v String) *String { return &v }
