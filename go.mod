@@ -1,11 +1,10 @@
-module github.com/hasura/go-graphql-client
+module github.com/lukaszraczylo/go-graphql-client
 
-go 1.14
+go 1.16
 
 require (
-	github.com/google/uuid v1.1.2
-	github.com/graph-gophers/graphql-go v0.0.0-20201112095111-7a585a01e04c
-	github.com/opentracing/opentracing-go v1.2.0 // indirect
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
+	github.com/google/uuid v1.2.0
+	github.com/graph-gophers/graphql-go v0.0.0-20210319060855-d2656e8bde15
+	golang.org/x/net v0.0.0-20210324205630-d1beb07c2056
 	nhooyr.io/websocket v1.8.6
 )
