@@ -29,13 +29,15 @@ type (
 	// Int can represent values between -(2^31) and 2^31 - 1.
 	Int int32
 
-	Bigint int64
+	bigint int64
 
 	// String represents textual data as UTF-8 character sequences.
 	// This type is most often used by GraphQL to represent free-form
 	// human-readable text.
 	String string
 )
+
+var Bigint bigint
 
 // NewBoolean is a helper to make a new *Boolean.
 func NewBoolean(v Boolean) *Boolean { return &v }
@@ -49,7 +51,7 @@ func NewID(v ID) *ID { return &v }
 // NewInt is a helper to make a new *Int.
 func NewInt(v Int) *Int { return &v }
 
-func NewBigint(v Bigint) *Bigint { return &v }
+func NewBigint(v bigint) *bigint { return &v }
 
 // NewString is a helper to make a new *String.
 func NewString(v String) *String { return &v }
